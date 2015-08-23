@@ -1,0 +1,631 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="#F9FFD1"
+    android:layout_weight="6"
+    android:orientation="vertical"
+    tools:context="com.example.bishwakhatri.nesteddrawer2.OddRoutineActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:padding="10dp"
+
+    android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="BEIT"
+
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/buttonIT1"
+            android:onClick="check"
+            android:background="@drawable/facultybuttonborder"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="III"
+            android:id="@+id/buttonIT3"
+            android:onClick="check"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff"
+            android:background="@drawable/facultybuttonborder"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/buttonIT5"
+            android:onClick="check"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff"
+            android:background="@drawable/facultybuttonborder"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VI"
+            android:id="@+id/buttonIT7"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:onClick="check"
+            android:background="@drawable/facultybuttonborder"
+             />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="BCE"
+
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonCE1"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III"
+                android:textColor="#ffffff"
+                android:id="@+id/buttonCE3"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonCE5"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VI"
+                android:id="@+id/buttonCE7"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="BEX"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonEX1"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III"
+                android:id="@+id/buttonEX3"
+                android:gravity="center"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonEX5"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VI"
+                android:id="@+id/buttonEX7"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BBA"
+                android:padding="5dp"
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonBA1"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III"
+                android:textColor="#ffffff"
+                android:id="@+id/buttonBA3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:onClick="check"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonBA5"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VI"
+                android:id="@+id/buttonBA7"
+                android:textColor="#ffffff"
+                android:onClick="check"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="BCV(AB)"
+
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonCAB1"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III"
+                android:id="@+id/buttonCAB3"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonCAB5"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VI"
+                android:id="@+id/buttonCAB7"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="@drawable/facultytextborder"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+
+                android:text="BCV(CD)"
+
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I"
+                android:id="@+id/buttonCCD1"
+                android:onClick="check()"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="III"
+                android:id="@+id/buttonCCD3"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="V"
+                android:id="@+id/buttonCCD5"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VI"
+                android:id="@+id/buttonCCD7"
+                android:onClick="check"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:background="@drawable/facultybuttonborder"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

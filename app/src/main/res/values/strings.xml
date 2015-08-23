@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cosmonoticeboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer_base_class">DrawerBaseClass</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="home">Cosmos College</string>
+
+    <string-array name="routines">
+        <item>Even</item>
+        <item>odd</item>
+    </string-array>
+
+    <string name="title_activity_main_activity2">News</string>
+    <string name="title_activity_main_activity3">Notices</string>
+    <string name="title_activity_main_activity4">Result</string>
+    <string name="title_activity_main_activity5">heloo</string>
+    <string name="title_activity_result_activity2">ResultActivity2</string>
+    <string name="title_activity_even_routine">EvenRoutines</string>
+    <string name="title_activity_odd_routine">OddRoutines</string>
+    <string name="title_activity_routine">RoutineActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_routines">RoutinesActivity</string>
+    <string name="title_activity_routine_activity_it2">RoutineActivityIT2</string>
+    <string name="title_activity_routine_activity_it3">RoutineActivityIT3</string>
+    <string name="title_activity_routine_activity_it4">RoutineActivityIT4</string>
+
+</resources>
